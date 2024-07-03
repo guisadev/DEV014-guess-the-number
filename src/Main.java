@@ -1,4 +1,4 @@
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         // Crear un jugador humano
         Player humanPlayer = new HumanPlayer("Human");
@@ -14,4 +14,4 @@ public class Main {
         GuessTheNumberGame computerGame = new GuessTheNumberGame(computerPlayer);
         computerGame.startGame();
     }
-}
+}*/

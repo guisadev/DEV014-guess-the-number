@@ -1,4 +1,4 @@
-public class Player {
+public abstract class Player { //qué hace este abstract?
     protected String name;
 
     public Player(String name) {
@@ -9,8 +9,5 @@ public class Player {
         return name;
     }
 
-    public int guessNumber() {
-        // Este método debe ser sobreescrito por las subclases
-        return -1;
-    }
+    public abstract int guessNumber();
 }
