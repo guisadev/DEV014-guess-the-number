@@ -1,4 +1,4 @@
-public abstract class Player { //qué hace este abstract?
+public abstract class Player {
     protected String name;
 
     public Player(String name) {
